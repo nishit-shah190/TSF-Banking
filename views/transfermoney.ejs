@@ -1,0 +1,24 @@
+<%- include("partials/header") %>
+<section id="content">
+    <h2>Transfer Money</h2>
+ <form id="transferform" action="/transfer/<%=customerName%>" method="POST">
+    
+    <h4>Transferring money from <%=customerName%> 's account</h4>
+    <br>
+   <select type="text" name="to" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+    <option selected>To</option>
+    <% customers.forEach((customer , index) => { %>
+      <option  value = "<%=customer.name%>"><%=customer.name%></option>
+    <%});%>
+  </select>
+
+  <input name="amount" class="form-control" type="number" placeholder="Amount" aria-label="default input example">
+
+<button type="submit" class="btn btn-outline-info btn-lg">
+    <a style="text-decoration: none; color: white;" 
+    id="transfer" 
+    >Transfer</a></button>
+  
+</form>
+</section>
+<%- include("partials/footer") %>

@@ -1,0 +1,41 @@
+<%- include("partials/header") -%>
+  <section id="content">
+      <h2>Customer's Information</h2>
+      
+      <section id="Table">
+      <table class="table">
+        <thead >
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Contact No</th>
+            <th scope="col">Current Balance</th>
+            <th scope="col">Transfer</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% customers.forEach((customer , index) => { %>
+            <tr>
+             
+              <th scope="row"><%=index+1%></th>
+              <td><%=customer.name%></td>
+              <td><%=customer.email%></td>
+              <td><%=customer.contact%></td>
+              <td><%=customer.balance%></td>
+              <td ><button class="transfermoney" type="submit" >
+                <a id="transfermoney" 
+                href="/transfermoney/<%=customer._id%>">Transfer Money</a></button></td>
+              
+            </tr>
+          
+          <%});%>
+          
+          
+        
+        </tbody>
+      </table>
+    </section>
+
+  </section>
+  <%- include("partials/footer") -%>

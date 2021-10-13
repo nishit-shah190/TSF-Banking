@@ -1,0 +1,157 @@
+body{
+    font-size: 62%;
+    
+}
+.justify-content-end{
+    margin-left: 720px;
+}
+
+.navbar{
+    height: 70px;
+    
+} 
+a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+.navbar-item{
+    color: white;
+}
+
+.navbar-brand
+{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 80px;
+    
+    margin-left: 30px;
+    font-weight: bold;
+}
+.navbar-brand a{
+    font-size: 3rem;
+}
+
+#title{
+    height: 400px;
+    background-image: url("/css/images/istockphoto-826661764-640x640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.85;
+    
+}
+.writing{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 120px;
+    
+}
+.writing h2{
+    font-size: 80px;
+    font-weight:800
+}
+.writing p{
+    font-size: 30px;
+}
+#features
+{
+    padding: 7% 15%;
+    background-color : rgb(32, 32, 32);
+    position:relative;
+    z-index: 1;
+    color:white;
+   
+}
+.success img{
+    margin: 80px 550px 30px 550px;
+}
+#footer
+{
+    padding-bottom: 4px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    height: 93px;
+    position:relative;
+    
+}
+#transferform{
+    margin: 10px auto 10px auto;
+    width: 40%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: rgb(51, 48, 48);
+}
+
+#transfermoney{
+    text-decoration: none;
+   
+    font-size: 17px;
+    margin-top: 2px;
+}
+button #transfer{
+    margin:auto
+}
+
+.social-icon
+{
+    margin: 20px 10px;
+}
+#content{
+    background-color: rgb(51, 48, 48);
+    min-height:450px;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+#content h2{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 40px;
+    
+}
+
+th,td{
+    color:white;
+    font-size: 17px;
+}
+#Table{
+    margin: 10px auto 10px auto;
+    width: 70%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    
+}
+tr{
+    padding-top: 30px;
+}
+.btn{
+    margin-left:80px;
+    margin-top:40px;
+    position: absolute;
+}
+.transfermoney {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color:white;
+    font-size: 17px;
+    padding: 8px 16px 8px 15px;
+    border: solid #a9dfff 1px;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  .transfermoney:hover {
+    background: #e6e6e6;
+    text-decoration: none;
+  }
+  a{
+      color: white;
+  }
